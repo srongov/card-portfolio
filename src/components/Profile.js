@@ -19,18 +19,18 @@ export default function Profile() {
             <div className="information">
             <div className="mail">
                 <img src={mail} alt="mail" />
-                <p>Email</p>
+                <h5>Email</h5>
                 <p>hakgov91@gmail.com</p>
             </div>
             <div className="pin">
                     <img src={pin} alt="mail" />
-                    <p>Address</p>
+                    <h5>Address</h5>
                     <p>482 Wicker Ave</p>
                     <p>Bensalem PA 19020</p>
             </div>
             <div className="phone">
                     <img src={phone} alt="mail" />
-                    <p>Phone Number</p>
+                    <h5>Phone Number</h5>
                 <p>(267 501-5101</p>
             </div>
             </div>

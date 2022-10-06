@@ -137,7 +137,10 @@ p {
   color: white;
 }
 
+ h5 {
+  color:#B49DAF;
+}
 
 .information {
-  margin-top: 60px;
+  margin-top: 30px;
 }
