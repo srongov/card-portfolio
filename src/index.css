@@ -5,6 +5,10 @@
 body {
   background-color:#1B1B1C;
   font-family: Courier, Sans-Serif;
+  background-image: url(../src/image/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 /* App.js */
@@ -17,7 +21,7 @@ body {
 }
 
 .top-container {
-  background-color: #28282A;
+  background-color: #202021;
   width: 13%;
   height: 800px;
   margin-top: 40px;
@@ -27,7 +31,7 @@ body {
 }
 
 .second-container {
-  background-color: #28282A;
+  background-color: #202021;
   width: 45%;
   height: 800px;
   margin-top: 40px;
@@ -110,7 +114,7 @@ p {
 }
 
 .about-me {
-  background-color: #2E2E2D;
+  background-color: #1D1D1D;
   /* width: 95%; */
   height: 256px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
