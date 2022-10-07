@@ -1,13 +1,13 @@
 import React from "react";
 
 
-import image1 from "../image/logo.png"
+// import image1 from "../image/logo.png"
 
 export default function Navbar() {
     return (
         <div className="nav">
             <div className="logo">
-            <img src={image1} alt="Hak" />
+            {/* <img src={image1} alt="Hak" /> */}
             </div>
             <div className="list">
                 <li><a href="#about">Home</a></li>

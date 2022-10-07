@@ -13,14 +13,14 @@ export default function Profile() {
             </div>
             <div>
                 <h1>Hak Gov</h1>
-                <p>Front-End Web Developer</p>
+                <p id="mypic-p">Front-End Web Developer</p>
             </div>
             <hr className="line" />
             <div className="information">
             <div className="mail">
                 <img src={mail} alt="mail" />
                 <h5>Email</h5>
-                <p>hakgov91@gmail.com</p>
+                <p><a href="mailto:hakgov91@gmail.com">hakgov91@gmail.com</a></p>
             </div>
             <div className="pin">
                     <img src={pin} alt="mail" />

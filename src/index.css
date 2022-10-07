@@ -41,18 +41,19 @@ body {
 .nav {
   display: flex;
   justify-content: center;
+  height: 70px;
 }
-
+/* 
 .logo img {
   width: 60px;
   height: 60px;
   margin-right: 100px;
-}
+} */
 
-.list img {
+/* .list img {
   border-radius: 100%;
   width: 100px;
-}
+} */
 
 a {
   text-decoration: none;
@@ -67,12 +68,12 @@ a {
   gap: 2.5rem;
   color: white;
   font-size: 16px;
-  margin-right: 110px;
+  /* margin-right: 40px; */
 }
 
 .myPic img {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   margin-top: 40px;
   box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px;
@@ -81,9 +82,20 @@ a {
   color: #1a376f;
 }
 
+#mypic-p {
+  font-size: 13px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #FFB668;
+}
+
 .line {
   border-color: #FFB668;
-  width: 230px;
+  border: none;
+  width: 150px;
   size: 1px;
   margin-top: 20px;
 }
@@ -166,8 +178,6 @@ p {
   margin-top: 50px;
   gap: 3rem;
 }
-
-
 
 .skill h1, .about h1 {
   text-align: center;
