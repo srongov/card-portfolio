@@ -46,12 +46,17 @@ body {
 .logo img {
   width: 60px;
   height: 60px;
-  margin-right: 150px;
+  margin-right: 100px;
 }
 
 .list img {
   border-radius: 100%;
   width: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .list {
@@ -61,8 +66,8 @@ body {
   list-style: none;
   gap: 2.5rem;
   color: white;
-  font-size: 18px;
-  margin-right: 180px;
+  font-size: 16px;
+  margin-right: 110px;
 }
 
 .myPic img {
@@ -92,25 +97,28 @@ p {
   font-size: 17px;
 }
 
+.about-me {
+  background-color: #2E2E2D;
+  /* width: 95%; */
+  height: 256px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-bottom: 50px;
+}
+
+
 .about-p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 800px;
-  height: 150px;
   text-align: start;
-  background-color: #2D2D30;
   text-align: center;
   border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px 100px 0px 100px;
+ 
 }
 
 .about h1 {
   text-align: center;
-}
-
-.about-me {
-  margin-top: 20px;
 }
 
 .about {
@@ -143,4 +151,33 @@ p {
 
 .information {
   margin-top: 30px;
+}
+
+.skill-top-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 50px;
+}
+
+.skill-second-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 3rem;
+}
+
+
+
+.skill h1, .about h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #FBB365;
+}
+
+.skill img {
+  background-color: #D9F3F1;
+  width: 120px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
