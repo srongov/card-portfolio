@@ -31,7 +31,7 @@ export default function Profile() {
             <div className="phone">
                     <img src={phone} alt="mail" />
                     <h5>Phone Number</h5>
-                <p>(267 501-5101</p>
+                <p>(267) 401-5101</p>
             </div>
             </div>
         </div>

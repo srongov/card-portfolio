@@ -12,21 +12,21 @@ export default function Skill() {
         <div className="skill">
             <h1>Skill</h1>
             <div className="skill-top-container">
-                <div className="">
+                <div id="image">
                 <img src={html} alt="html" />
                 </div>
-                <div className="">
+                <div id="image">
                 <img src={css} alt="css" />
                 </div>
-                <div className="">
+                <div id="image">
                 <img src={js} alt="js" />
                 </div>
             </div>
             <div className="skill-second-container">
-                <div>
+                <div id="image">
                 <img src={node} alt="js" />
                 </div>
-                <div>
+                <div id="image">
                 <img src={react} alt="js" />
                 </div>
             </div>
