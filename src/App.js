@@ -5,6 +5,7 @@ import Profile from "./components/Profile";
 import About from "./components/About";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
+import Resume from "./components/Resume";
 
 export default function App() {
   return (
@@ -22,6 +23,9 @@ export default function App() {
         </div>
         <div>
           <Project />
+        </div>
+        <div>
+          <Resume />
         </div>
       </div>
     </div>

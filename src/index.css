@@ -7,13 +7,10 @@ body {
   font-family: Courier, Sans-Serif;
   background-image: url(../src/image/bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  
-  
+  background-size: cover;  
 }
 
 /* App.js */
-
 
 .container {
   display: flex;
@@ -24,7 +21,7 @@ body {
 .top-container {
   background-color: #202021;
   width: 13%;
-  height: 700px;
+  height: 850px;
   margin-top: 40px;
   border-radius: 10px;
   box-shadow: 0 0 10px;
@@ -41,14 +38,32 @@ body {
   box-shadow: 0 0 10px;
 }
 
-
 /* NavBar */
+
+/* .nav:hover {
+  background-color: #FBB365;
+} */
+
 
 .nav {
   display: flex;
   justify-content: center;
   height: 70px;
+  position: sticky; top: 0px;
+  background-color: #202021;
 }
+
+.list a:hover{
+  color: #FBB365;
+}
+
+.list li:hover{
+  -webkit-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
 /* 
 .logo img {
   width: 60px;
@@ -74,26 +89,37 @@ a {
   gap: 2.5rem;
   color: white;
   font-size: 16px;
-  /* margin-right: 40px; */
 }
 
 .myPic img {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  margin-top: 10px;
+  margin-top: 50px;
   border-style: solid;
   border-width: thick;
   color: #1a376f;
   border: 1px solid #ddd;
-  padding: 5px;
-  
+  padding: 5px; 
+}
+
+.mail p:hover {
+  -webkit-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.phone p:hover {
+  -webkit-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  transform: scale(1.1);
+  transition: 0.3s ease;
 }
 
 #mypic-p {
   font-size: 12px;
 }
-
 
 hr {
   border: none;
@@ -109,7 +135,6 @@ hr {
   margin-top: 10px;
 }
 
-
 h1 {
   color: white;
 }
@@ -120,23 +145,19 @@ p {
 }
 
 .about-me {
-  /* width: 95%; */
   height: 256px;
-  margin-bottom: 50px;
+  background-color: #1D1D1D;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
-
 
 .about-p {
   display: flex;
   justify-content: center;
-  background-color: #1D1D1D;
-  box-shadow: 0 0 10px;
-  height: 200px;
   align-items: center;
   text-align: start;
   text-align: center;
   padding: 30px 100px 0px 100px;
- 
 }
 
 .about h1 {
@@ -148,6 +169,10 @@ p {
   justify-content: center;
 }
 
+.information a:hover{
+  color: #FBB365;
+}
+
 .mail img {
   width: 30px;
   height: 30px;
@@ -157,6 +182,11 @@ p {
   width: 30px;
   height: 30px;
 }
+
+.phone {
+  margin-top: 30px;
+}
+
 .phone img {
   width: 30px;
   height: 30px;
@@ -167,12 +197,12 @@ p {
   color: white;
 }
 
- h5 {
+h5 {
   color:#B49DAF;
 }
 
 .information {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 /* SKILL */
@@ -194,7 +224,14 @@ p {
 .skill h1, .about h1, .project h1 {
   text-align: center;
   color: #FBB365;
-  margin-top: 50px;
+  margin-top: 30px;
+}
+
+.skill #image:hover{
+  -webkit-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  transform: scale(1.1);
+  transition: 0.3s ease;
 }
 
 #image {
@@ -205,60 +242,105 @@ p {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  
   box-shadow: 0 0 10px;
 }
 
 /* Project */
 
-.card img {
-  width: 250px;
-  height: 250px;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
+.project {
+  background-color: #1D1D1D;
 }
 
-.card {
-  margin-top: 30px;
-  text-align: center;
-  
-}
+.project h1 {
 
-
-
-
-#top-card {
-  background-color: #39383E;
-  margin-left: 40px;
-  margin-right: 40px;
-  border-radius: 5px;
-}
-
-#name {
-  background-color: #39383E;
-  border-radius: 5px;
-
-}
-
-.card p {
-   font-size: 13px;
-   
+  padding-top: 50px;
 }
 
 .project-container {
   background-color: #1D1D1D;
   display: flex;
-  text-align: center;
-  gap: 2rem;
+  height: 550px;
+  gap: 3rem;
+  justify-content: center;
   
 }
 
-.card img:hover{
+.div-project img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.div-project {
+  background-color: #262627;
+  height: 460px;
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
+  
+}
+
+.div-project h3 {
+  color: white;
+}
+
+/* .div-project a {
+  border-style: solid;
+  padding: 5px;
+  border-color: #FBB365;
+} */
+
+.project-container img:hover {
   -webkit-transform: scale(0.1);
   -ms-transform: scale(0.1);
   transform: scale(1.1);
   transition: 0.3s ease;
-  }
+}
+
+#github a {
+  border-style: solid;
+  padding: 5px;
+  border-color: #FBB365;
+  color: #FBB365;
+}
+
+#github:hover {
+  -webkit-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+/* RESUME */
+
+.resume {
+  background-color: #202021;
+  height: 550px;
+}
+
+.resume-div {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.resume-div img {
+  width: 750px;
+  box-shadow: 0 0 10px;
+  border-style: solid;
+}
+
+.resume h1 {
+  text-align: center;
+  color: #FBB365;
+  margin-top: 50px;
+}
+
+
+
+
+
+    @media only screen and (max-width: 1250px) {
+      
+    }
