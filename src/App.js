@@ -6,6 +6,7 @@ import About from "./components/About";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -26,6 +27,9 @@ export default function App() {
         </div>
         <div>
           <Resume />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </div>

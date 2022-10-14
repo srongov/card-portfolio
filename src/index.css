@@ -337,6 +337,21 @@ h5 {
   margin-top: 50px;
 }
 
+.footer {
+  background-color: #1D1D1D;
+  box-shadow: 0 0 10px;
+  height: 80px;
+  text-align: center;
+}
+
+.footer-div  {
+  padding-top: 1px;
+}
+
+.footer-div p {
+  color: white;
+}
+
 
 
 
