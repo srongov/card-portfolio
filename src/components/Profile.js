@@ -7,11 +7,11 @@ import phone from "../image/phone.png"
 
 export default function Profile() {
     return (
-        <div>
+        <div className="profile">  
             <div className="myPic">
                 <img src={hak} alt="Hak" />
             </div>
-            <div>
+            <div className="profile-dev">
                 <h1>Hak Gov</h1>
                 <p id="mypic-p">Front-End Web Developer</p>
             </div>
