@@ -355,17 +355,15 @@ h5 {
 .footer {
   background-color: #1D1D1D;
   box-shadow: 0 0 10px;
-  height: 80px;
+  height: 100px;
   text-align: center;
+  
 }
 
-.footer-div  {
-  padding-top: 1px;
-}
-
-.footer-div p {
+.footer-div p  {
   color: white;
 }
+
 
 @media screen 
   and (min-device-width: 1200px) 
@@ -406,7 +404,7 @@ h5 {
     }
 
     .footer {
-      padding-top: 15px;
+      padding-top: 10px;
     }
 
 }
