@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
 }
 
 body {
@@ -249,6 +250,7 @@ h5 {
 
 .project {
   background-color: #1D1D1D;
+  box-shadow: 0 0 10px;
 }
 
 .project h1 {
@@ -352,10 +354,46 @@ h5 {
   color: white;
 }
 
-
-
-
-
-    @media only screen and (max-width: 1250px) {
-      
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .resume-div img {
+      width: 650px;
+      box-shadow: 0 0 10px;
+      border-style: solid;
     }
+
+    .top-container {
+      height: 700px;
+    }
+
+    .line {
+      border-color: #FFB668;
+      border: none;
+      width: 150px;
+      size: 1px;
+      margin-left: 20px;
+    }
+
+    .information {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .div-project {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .resume {
+      height: 450px;
+    }
+
+    .footer {
+      padding-top: 15px;
+    }
+
+}
