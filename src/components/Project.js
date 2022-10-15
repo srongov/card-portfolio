@@ -5,7 +5,7 @@ import project2 from "../image/project2.PNG"
 
 export default function Project() {
     return (
-        <div className="project">
+        <div id="project" className="project">
             <h1>Project</h1>
             <div className="project-container">
                 <div className="div-project">

@@ -9,7 +9,7 @@ import react from "../image/react.png"
 
 export default function Skill() {
     return (
-        <div className="skill">
+        <div id="skill" className="skill">
             <h1>Skill</h1>
             <div className="skill-top-container">
                 <div id="image">

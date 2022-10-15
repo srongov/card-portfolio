@@ -2,7 +2,7 @@ import React from "react"
 
 export default function About() {
     return (
-        <div className="about-me">
+        <div id="about" className="about-me">
             <h1>About</h1>
             {/* <hr className="line-2" /> */}
             <div className="about-p">
