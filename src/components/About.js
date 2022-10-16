@@ -7,7 +7,7 @@ export default function About() {
             {/* <hr className="line-2" /> */}
             <div className="about-p">
                 <p>
-                    Hello, I'm a Frontend Developer love for design beautiful functional user client and build accessible components. I'm passion to learn new technologies to improve myself.
+                    Hello, I'm a Front-End Developer who loves designing beautiful functional user client and building accessible components. I'm Passionate about learning new technologies to continuously improve myself.
                 </p>
             </div>
         </div>
